@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abcd" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dip"
+            android:ems="10"
+            android:hint="OLD PASSWORD"
+            android:inputType="textPassword"
+            android:textColor="#009dde"
+            android:textColorHint="#009dde" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="282dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="NEW PASSWORD"
+            android:inputType="textPassword"
+            android:textColor="#009dde"
+            android:textColorHint="#009dde" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="CONFIRM NEW PASSWORD"
+            android:inputType="textPassword"
+            android:textColor="#009dde"
+            android:textColorHint="#009dde" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0f0f0f"
+            android:textColorHint="#0f0f0f" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_weight="0.33"
+                android:text="CHANGE"
+                android:textColor="#009dde"
+                android:textColorHint="#009dde" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:layout_weight="0.33"
+                android:text="CANCEL"
+                android:textColor="#009dde" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    
+
+</ScrollView>

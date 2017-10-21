@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wt" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dip"
+            android:text="MY TICKETS"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColorHint="#ffffff"
+            android:textSize="30dp" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dip"
+            android:animateLayoutChanges="true"
+            android:background="@drawable/sc"
+            android:spinnerMode="dropdown"
+            android:textAlignment="center"
+            android:textColor="#009dde" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="237dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dip"
+            android:layout_weight="0.22"
+            android:background="@drawable/btn"
+            android:text="Display Ticket"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="237dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dip"
+            android:layout_weight="0.22"
+            android:background="@drawable/btn"
+            android:text="Delete Tickets"
+            android:textSize="35dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_marginLeft="90dip"
+                android:layout_marginTop="30dip"
+                android:background="@drawable/hme"
+                android:width="64dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="30dip"
+                android:text="HOME"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

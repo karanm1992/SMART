@@ -1,0 +1,79 @@
+    <head>
+        <meta charset="UTF-8" />
+        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  -->
+        <title>Pune Metro</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Login and Registration Form with HTML5 and CSS3" />
+        <meta name="keywords" content="html5, css3, form, switch, animation, :target, pseudo-class" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate-custom.css" />
+    </head>
+    <body>
+        <div class="container">
+            <!-- Codrops top bar -->
+            <div class="codrops-top">
+                <a href="">
+                                    <div class="clr"></div>
+            </div><!--/ Codrops top bar -->
+            <header>
+                <h1>Pune Metro<span></h1>
+				
+					<a href="file:///D:/B.E/Sem%20I/Project/HTML5/Home%20Page/Home.html" class="current-demo"></a>
+
+				</nav>
+            </header>
+            <section>				
+                <div id="container_demo" >
+                    <!-- hidden anchor to stop jump http://www.css3create.com/Astuce-Empecher-le-scroll-avec-l-utilisation-de-target#wrap4  -->
+                    <a class="hiddenanchor" id="tometroschedule"></a>
+                    <a class="hiddenanchor" id="tobuyticket"></a>
+                    <div id="wrapper">
+                        <div id="main" class="animate form">
+                            <form  action="index1.php" method = "post" autocomplete="on"> 
+                                <h1>Routes</h1>                               
+								<p>	
+								<label for="Src_Sel" class="source"> Select Source</label><br>
+                                <select name="source">
+								<option value="select">Select</option>
+								<option value="red">Camp</option>
+								<option value="yellow">Lullanagar</option>
+								<option value="blue">Kondhwa</option>
+								<option value="green">Katraj</option>
+								<option value="green">FC Road</option>
+								<option value="green">Hadapsar</option>
+								<option value="green">Kothrud</option>
+								</select>
+								</p>
+								<p>
+								<label for="Dest_Sel" class="dest"> Select Destination</label><br>
+                                <select name="dest">
+								<option value="select">Select</option>
+								<option value="red">Camp</option>
+								<option value="yellow">Lullanagar</option>
+								<option value="blue">Kondhwa</option>
+								<option value="green">Katraj</option>
+								<option value="green">FC Road</option>
+								<option value="green">Hadapsar</option>
+								<option value="green">Kothrud</option>
+								</select>
+								</p>
+								
+								<p>
+								<input type="hidden" name="tag" value="route"><br>
+								</p>
+								
+								<p class="route button"> 
+									<input type="submit" value="Proceed"/>
+									<!--<a href="#tologin" class="to_register"> </a>-->							
+								</p>
+                            </form>
+                        </div>
+					</div>									
+                </div>  
+            </section>
+        </div>
+    </body>
+</html>

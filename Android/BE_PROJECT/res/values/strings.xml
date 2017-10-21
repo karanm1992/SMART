@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AndroidDashboard!</string>
+    <string name="app_name">Pune Metro</string>
+    <string name="click">CLICK TO CONTINUE</string>
+    <string name="welcome">WELCOME</string>
+    <string name="login">LOGIN</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="msg">New Users Register Here</string>
+    <string name="reg">REGISTER</string>
+    <string name="name">Full Name</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="dob">Date of Birth</string>
+    <string name="msg1">PUNE METRO</string>
+    <string name="schedule">SELECT ROUTE</string>
+    <string name="route">SELECT ROUTE</string>
+    <string name="ticket">Enter No. of Tickets</string>
+    <string name="logout">LOGOUT</string>
+    <string name="profile">EDIT PROFILE</string>
+    <string name="select_src">         SELECT SOURCE</string>
+    <string name="add">ADDRESS</string>
+    <string name="city">CITY</string>
+    <string name="state">STATE</string>
+    <string name="country">COUNTRY</string>
+    <string name="male">MALE</string>
+    <string name="female">FEMALE</string>
+    <string name="station">Station Name</string>
+    <string name="gen">Gender</string>
+    <string name="DigitalClock">DigitalClock</string>
+    <string name="select_des">          SELECT DESTINATION</string>
+    <string name="proceed">Proceed</string>
+    <string name="dc">Clock</string>
+    <string name="src">  SOURCE</string>
+    <string name="dest">DESTINATION</string>
+    <string name="to">             TO</string>
+    <string name="time">Select Time</string>
+    <string name="edit">EDIT PROFILE</string>
+    <string name="save">Save Change</string>
+    <string name="can">Cancel</string>
+
+</resources>
